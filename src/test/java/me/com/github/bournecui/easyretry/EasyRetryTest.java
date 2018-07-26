@@ -1,6 +1,3 @@
-/*
- * Copyright (C) 2018 Baidu, Inc. All Rights Reserved.
- */
 package me.com.github.bournecui.easyretry;
 
 import static com.github.bournecui.easyretry.EasyRetryBuilder.newBuilder;

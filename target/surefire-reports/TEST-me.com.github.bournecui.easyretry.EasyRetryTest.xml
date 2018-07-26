@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="me.com.github.bournecui.easyretry.EasyRetryTest" time="4.627" tests="18" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/data/idea_projects/easy-retry/target/test-classes:/data/idea_projects/easy-retry/target/classes:/data/repo/org/projectlombok/lombok/1.18.0/lombok-1.18.0.jar:/data/repo/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/data/repo/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/data/repo/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/data/repo/junit/junit/4.12/junit-4.12.jar:/data/repo/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/data/idea_projects/easy-retry/target/surefire/surefirebooter6082815573061236101.jar /data/idea_projects/easy-retry/target/surefire 2018-07-26T11-39-44_149-jvmRun1 surefire5613289872760459257tmp surefire_01016180909753510722tmp"/>
+    <property name="http.nonProxyHosts" value="local„ÄÅ169.254/16|*.local„ÄÅ169.254/16"/>
+    <property name="surefire.test.class.path" value="/data/idea_projects/easy-retry/target/test-classes:/data/idea_projects/easy-retry/target/classes:/data/repo/org/projectlombok/lombok/1.18.0/lombok-1.18.0.jar:/data/repo/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/data/repo/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/data/repo/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/data/repo/junit/junit/4.12/junit-4.12.jar:/data/repo/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/cuilei05"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/data/idea_projects/easy-retry"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/data/idea_projects/easy-retry/target/surefire/surefirebooter6082815573061236101.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local„ÄÅ169.254/16|*.local„ÄÅ169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_92-b14"/>
+    <property name="user.name" value="cuilei05"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.13.4"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/data/repo"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/jl/0mb0gy2j7gncx413rs7wkjdh0000gp/T/"/>
+    <property name="java.version" value="1.8.0_92"/>
+    <property name="user.dir" value="/data/idea_projects/easy-retry"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="user.language.format" value="en"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/cuilei05/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.92-b14"/>
+    <property name="java.ext.dirs" value="/Users/cuilei05/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local„ÄÅ169.254/16|*.local„ÄÅ169.254/16"/>
+  </properties>
+  <testcase name="testExceptionParentInclude" classname="me.com.github.bournecui.easyretry.EasyRetryTest" time="0.168"/>
+  <testcase name="testExceptionNoneIncludeAndExclude" classname="me.com.github.bournecui.easyretry.EasyRetryTest" time="0.005"/>
+  <testcase name="testExceptionParentExclude" classname="me.com.github.bournecui.easyretry.EasyRetryTest" time="0.015"/>
+  <testcase name="testEastRunnabel" classname="me.com.github.bournecui.easyretry.EasyRetryTest" time="0"/>
+  <testcase name="testExceptionParentIncludeGranpaExClude" classname="me.com.github.bournecui.easyretry.EasyRetryTest" time="0.003"/>
+  <testcase name="testExceptionExclude2" classname="me.com.github.bournecui.easyretry.EasyRetryTest" time="0.002"/>
+  <testcase name="testMaxAttempt" classname="me.com.github.bournecui.easyretry.EasyRetryTest" time="0.015"/>
+  <testcase name="testExceptionParentExcludeGranpaInClude" classname="me.com.github.bournecui.easyretry.EasyRetryTest" time="0.004"/>
+  <testcase name="testExceptionInclude" classname="me.com.github.bournecui.easyretry.EasyRetryTest" time="0.022"/>
+  <testcase name="testBackoffAndTimeOut" classname="me.com.github.bournecui.easyretry.EasyRetryTest" time="4.006"/>
+  <testcase name="testNotIncludeNorExclude" classname="me.com.github.bournecui.easyretry.EasyRetryTest" time="0.005"/>
+  <testcase name="testExceptionParentExcludeSelfInClude" classname="me.com.github.bournecui.easyretry.EasyRetryTest" time="0.124"/>
+  <testcase name="testExceptionExclude" classname="me.com.github.bournecui.easyretry.EasyRetryTest" time="0.154"/>
+  <testcase name="testResultPredicate" classname="me.com.github.bournecui.easyretry.EasyRetryTest" time="0.004"/>
+  <testcase name="testBothIncludeAndExclude" classname="me.com.github.bournecui.easyretry.EasyRetryTest" time="0"/>
+  <testcase name="testExceptionInclude2" classname="me.com.github.bournecui.easyretry.EasyRetryTest" time="0.001"/>
+  <testcase name="testEasyCallable" classname="me.com.github.bournecui.easyretry.EasyRetryTest" time="0"/>
+  <testcase name="testExceptionParentIncludeSelfExclude" classname="me.com.github.bournecui.easyretry.EasyRetryTest" time="0.006"/>
+</testsuite>

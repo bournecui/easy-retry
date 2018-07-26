@@ -1,4 +1,5 @@
-#easy-retry
+
+# easy-retry
 
 ## About _easy-retry_
 `easy-retry` provides retry support for Java applications.

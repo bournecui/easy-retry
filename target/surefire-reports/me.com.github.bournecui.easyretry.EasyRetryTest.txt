@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: me.com.github.bournecui.easyretry.EasyRetryTest
--------------------------------------------------------------------------------
-Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.627 s - in me.com.github.bournecui.easyretry.EasyRetryTest

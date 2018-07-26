@@ -1,0 +1,10 @@
+.idea
+target
+*.iml
+*.log
+.settings/
+.project
+.classpath
+output/
+META-INF/
+**/.DS_Store
